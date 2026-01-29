@@ -4,12 +4,32 @@
     padding: 0;
 }
 html{
-    --background-dark: #1a1a2e;
+    font-size: 16px;
+    --background-dark: #020817;
 }
 body{
     background-color: var(--background-dark);
 }
 
 .scrimba-projects{
-    
+    /* Position */    
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    /* Styles */
+    border-bottom: 1px solid #1E293B;
+
+    /* Content */
+    display: flex;
+    padding: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+a, a::after, a::before{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+
 }
