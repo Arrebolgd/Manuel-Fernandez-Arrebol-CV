@@ -10,7 +10,8 @@ html {
     font-size: 16px;
     /* Dark theme */
     --background-dark-theme: #020817;
-    --font-dark-theme: #e2e8f0;
+    --font-highlight-dark-theme: #e2e8f0;
+    --font-base-dark-theme: #64748B;
 
     /* Light theme */
 }
@@ -72,11 +73,11 @@ a,
 a::after,
 a::before {
     text-decoration: none;
-    color: var(--font-dark-theme);
+    color: var(--font-base-dark-theme);
 }
 
 a:hover {
-    color: red;
+    color: var(--font-highlight-dark-theme);
 }
 
 .myself {
@@ -96,10 +97,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.myself h2 {
-    font-size: 4rem;
+    color: var(--font-highlight-dark-theme);
+    font-size: 3rem;
 }
 
 .myself p {
