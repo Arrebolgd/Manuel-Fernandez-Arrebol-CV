@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    --background-dark: #1a1a2e;
+}
+body{
+    background: var(--background-dark);
+}
+
+.scrimba-projects{
+    
+}
