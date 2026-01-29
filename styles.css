@@ -82,7 +82,7 @@ a:hover {
 .myself {
     /* Container */
     height: 100vh;
-    
+
     /* Content */
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ a:hover {
 
 
 }
-.h2-about{
+.h2-presentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
