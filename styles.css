@@ -26,6 +26,7 @@ html {
         "CRSV" 0.5,
         "ELSH" 0,
         "ELXP" 0;
+    color: var(--font-highlight-dark-theme);
 }
 
 .google-sans {
@@ -39,7 +40,7 @@ html {
 
 body {
     background-color: var(--background-dark-theme);
-    color: var(--font-dark-theme);
+    color: var(--font-highlight-dark-theme);
 
     font-family: "Google Sans", sans-serif;
     font-optical-sizing: auto;
@@ -102,6 +103,13 @@ a:hover {
     margin-bottom: 1rem;
     border: var(--font-base-dark-theme) solid 0.2rem;
 }
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .h2-presentation {
     display: flex;
     flex-direction: column;
@@ -146,4 +154,20 @@ a:hover {
 .button-container a:hover {
     background: var(--font-base-dark-theme);
     color: var(--font-highlight-dark-theme);
+}
+
+#about-me, #skills, #experience, #education{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 23rem;
+}
+.line{
+    width: 1.5rem;
+    height: .3rem;
+    background-color: var(--font-highlight-dark-theme);
+    border-radius: 8px;
 }
