@@ -59,7 +59,7 @@ body {
     /* Content */
     display: flex;
     justify-content: space-around;
-    padding: 1.2rem;
+    padding: 0.8rem;
     backdrop-filter: blur(10px);
 
 
@@ -102,6 +102,8 @@ a:hover {
     margin-top: 3rem;
     margin-bottom: 1rem;
     border: var(--font-base-dark-theme) solid 0.2rem;
+    background-image: url("images/Sin\ título.png");
+    background-size: cover;
 }
 #contact{
     display: flex;
@@ -117,7 +119,7 @@ a:hover {
     align-items: center;
 
     color: var(--font-highlight-dark-theme);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .myself p {
@@ -126,7 +128,7 @@ a:hover {
 }
 
 .myself .button-container {
-    margin-top: 3rem;
+    margin: 2rem;
     display: flex;
     gap: 2rem;
 }
