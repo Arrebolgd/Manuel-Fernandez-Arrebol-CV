@@ -121,7 +121,9 @@ a:hover {
     color: var(--font-highlight-dark-theme);
     font-size: 2rem;
 }
-
+/* .dotted-underline{
+    text-decoration: underline dotted var(--font-base-dark-theme);
+} */
 .myself p {
     font-size: 1.2rem;
     color: #64748B;
@@ -178,5 +180,5 @@ h3.bitcount-single{
 }
 
 #cv{
-    
+
 }
